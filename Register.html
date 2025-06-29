@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Amazon : Login</title>
+    <title>Amazon : Register</title>
     <!-- font awosem cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,14 +58,23 @@
 
     <!-- Navbar End -->
 
-    <!-- login Start -->
+    <!-- Register Start -->
     <div class="container mt-5 mb-5 ">
         <div class="card shadow rounded mx-auto" style="width: 25rem;">
   <div class="card-body mb-3">
-    <h4 class="card-title text-center" style="font-weight: bold;">Login</h4>
+    <h4 class="card-title text-center" style="font-weight: bold;">Regsiter</h4>
     
 
 <form>
+    <label for="inputEmail3" class="col-sm-3 col-form-label">Name</label>
+  
+  <div class="row mb-3">
+    
+    <div class="col-sm-12">
+      <input type="name" class="form-control" id="inputEmail3" placeholder="Sam....">
+     
+    </div>
+  </div>
   <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
   
   <div class="row mb-3">
@@ -73,6 +82,15 @@
     <div class="col-sm-12">
       <input type="email" class="form-control" id="inputEmail3" placeholder="abc@abc.com">
       <small class="text-muted">we will not sharing your email..!</small>
+    </div>
+  </div>
+  <label for="inputEmail3" class="col-sm-3 col-form-label">Mobile No.</label>
+  
+  <div class="row mb-3">
+    
+    <div class="col-sm-12">
+      <input type="text" class="form-control" id="inputEmail3" placeholder="9868xxxxxx">
+      
     </div>
   </div>
     <label for="inputPassword3" class="col-sm-3 col-form-label">Password</label>
@@ -84,14 +102,23 @@
     <small class="text-muted ">Password must in 6 Cherector</small>
   </div>
   </div>
+  <label for="inputPassword3" class="col-sm-6 col-form-label">Confirm Password</label>
+  <div class="row mb-3">
+  
+    <div class="col-sm-12">
+      
+    <input type="password" class="form-control" id="inputPassword3" placeholder="********">
+    <small class="text-muted ">Password must same</small>
+  </div>
+  </div>
  
   
-  <button type="submit" class="btn btn-warning w-100 btn-sm shadow rounded mb-3">Sign in</button>
+  <button type="submit" class="btn btn-warning w-100 btn-sm shadow rounded mb-3">Register</button>
 </form>
  <hr>
 
- <h6 class="text-center text-muted">Are you new to shopping...?</h6>
- <a class="btn btn-outline-success btn-sm w-100 shadow rounded mt-2" href="Register.html">Register Your Self</a>
+
+ <a class="btn btn-outline-success btn-sm w-100 shadow rounded mt-2" href="Login.html"><small>Already have an acount..?</small> Sign in</a>
  <a class="btn btn-outline-warning btn-sm w-100 shadow rounded mt-2" href="#"><i class="fa-brands fa-google"></i> Signin with google</a>
    <a class="btn btn-outline-primary btn-sm w-100 shadow rounded mt-2" href="#"><i class="fa-brands fa-facebook"></i> Signin with facebook</a>
 
@@ -101,7 +128,7 @@
 </div>
     </div>
 
-    <!-- login end -->
+    <!-- Register end -->
 
    
     
